@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    background-color: brown;
+    height: 65px;
+    width: 100%;
+
+}
+.judul {
+    float: left;
+    font-size: x-large;
+    line-height: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.pop {
+    float: right;
+    text-align: center;
+}
+.menu {
+    margin-right: 30px;
+}
+.menu {
+    padding: 15px 35px;
+    background-color: rgba(255, 255,255, 0);
+    font-family:serif;
+    transition: all 0.5s;
+    text-align: center;
+    display: none;
+
+
+}
+.menu li{
+    margin-left: 20px;
+    padding: 5px;
+}
+.menu li a{
+    color : brown;
+}
+.menu a:hover{
+    background-color: rgba(236, 60, 60, 0.8);
+}
+.main {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 120px;
+    line-height: 20px;
+}
+.daftar-menu {
+    height:450px;
+    background-color: white;
+}
+.Judul-main {
+    color: brown;
+    padding-bottom: 10px;
+    border-bottom: brown solid 1px;
+}
+.foto {
+    width: 200px;
+}
+.kopi {
+    padding: 20px ;
+    background-color: gainsboro;
+    width: 25%;
+    float:left;
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.pop-menu {
+
+    font-size: 20px;
+    line-height: 35px;
+    color: whitesmoke;
+    padding:15px;
+    transition: all 0.8s;
+}
+.pop-menu:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.pop:hover .menu{
+    display: block;
+    transition: all 0.8s;
+}
+.logo a {
+    color:white;
+    line-height: 2px;
+}
+.logo {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 8px 5px;
+    background-color: #71c62b;
+    box-shadow: #41bb00 0px 5px 0px 0px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.logo:active {
+    box-shadow: none;
+    top:5px;
+    position: relative;
+
+}
+footer {
+    background-color: brown;
+}
+.footer {
+    padding: 10px;
+    color: white;
+    float: left;
+    background-color: brown;
+}
